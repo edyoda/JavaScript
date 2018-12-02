@@ -1,0 +1,88 @@
+<!-- DOM => Document Object Model
+
+document
+HTML => DOM Tree
+
+1. Add new elements
+2. Change the styling
+3. Set or get the data
+4. Data validation
+  -->
+  <!-- Access Elements :
+    1.getElementById
+    2.getElementsByClassName()
+    3.getElementsByTagName()
+    4.querySelector
+    5.querySelectorAll
+
+  Creating New Nodes :
+    1.createElement()
+    2.textContent
+    3.innerHTML
+    4.appendChild()
+
+    Modify Attributes:
+      1.getAttribute()
+      2.setAttribute()
+
+    Event Listener
+      1.addEventListener() -->
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+    <style>
+        #label-count{
+          font-size : 20px;
+          color : #9B59B6;
+        }
+        .btn-cls1 {
+            font-size : 20px;
+        }
+        p{
+          font-size : 25px;
+        }
+    </style>
+  </head>
+  <body>
+      <div>
+          <p>My To DO LIST</p>
+          <!-- <button type="button" class="btn-cls1" onclick="incrClickCount()">Click Here</button>
+          <button type="button" class="btn-cls1" onclick="resetClickCount()">Reset</button> -->
+
+          <!-- <button type="button" id="btn-click-here" class="btn-cls1">Click Here</button>
+          <button type="button" id = "btn-reset" class="btn-cls1">Reset</button>
+
+
+          <label id="label-count">0</label>
+          <br>
+          <form id = "user-form" method="post">
+            <label>Username</label>
+            <input type="text" id="txt-usernm">
+            <br>
+            <label>Password</label>
+            <input type="password" id="txt-password">
+            <button type="submit" id ="btn-submit">Submit</button>
+          </form> -->
+          <input type="text" id = "task-text" placeholder="Enter New Item">
+          <button type="button" id = "add-id" name="button-add">Add</button>
+
+          <ul id="list1">
+            <li>Learn Basics of HTML</li>
+            <li>Learn Basics of CSS</li>
+          </ul>
+
+      </div>
+
+      <script type="text/javascript" src = "test1.js">
+
+      </script>
+  </body>
+</html>
